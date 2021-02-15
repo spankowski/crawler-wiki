@@ -5,6 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
+local_folder
 
 # Distribution / packaging
 .Python
