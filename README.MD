@@ -21,15 +21,16 @@
 - get: 
 `http://localhost:9080/crawl.json?`
 - parameters:
-url=<site_url>
-spider_name=<spider_name>
+    * url=<site_url>
+    * spider_name=<spider_name>
 
 ### Example:
 `http://localhost:9080/crawl.json?url=https://en.wikipedia.org/wiki/Eiffel_Tower&spider_name=text_spider`
 
 # Spiders to use: 
-text_spider - crawl all text from site
-image_spider - crawl all images from site
+- text_spider - crawl all text from site
+
+- image_spider - crawl all images from site
 
 # DOWNLOAD RESULTS: 
 SSH/FTP - folder: 
