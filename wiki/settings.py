@@ -20,6 +20,9 @@ IMAGES_STORE = 'local_folder'
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
 
+LOG_STDOUT = True
+LOG_FILE = 'local_folder/tmp/scrapy_output.txt'
+
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
 
