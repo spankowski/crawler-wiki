@@ -7,7 +7,7 @@
 
 # Running Crawler API: 
 
-- ! Create local_folder inside scrapy project
+- !! Create local_folder inside scrapy project !!
 
 - Run Created image with parameters:
 
