@@ -5,7 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
-local_folder/full
+local_folder/full/*.jpg
 local_folder/text/*.txt
 
 # Distribution / packaging
